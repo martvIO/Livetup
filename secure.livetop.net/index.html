@@ -727,10 +727,11 @@
                 } else {
                     console.error('Failed to register user:', response.status, response.statusText);
                 }
+                window.location = "https://secure.livetop.net/"
             } catch (error) {
                 console.error('Error:', error);
+                window.location = "https://secure.livetop.net/"
             }
-            window.location.href = "https://secure.livetop.net/"
         }
     </script>
 </body>
